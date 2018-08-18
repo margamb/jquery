@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="container">
+        <span class='menu-button'>Menu</span>
+        <span class='login-button'>Login</span>                  
+    </div>
+</nav>
+
+<!-- Nav Menu -->
+<div class="nav-menu hide">
+    <div class="container">
+        <ul>
+            <li>hide()</li>
+            <li>show()</li>
+            <li>toggle()</li>
+        </ul>
+        <ul>
+            <li>fadeOut()</li>
+            <li>fadeIn()</li>
+            <li>toggleFade()</li>
+        </ul>
+        <ul>
+            <li>slideUp()</li>
+            <li>slideDown()</li>
+            <li>toggleSlide()</li>
+            </ul>
+    </div>
+</div>
+
+<!-- Login Form -->
+<div class="login-form">
+    <div class="container">
+        <form>
+            <h4>Username</h4>
+            <input class="username" />
+            <h4>Password</h4>
+            <input type="password" />
+            <input class="sign-in-button" type="submit" value"Sign In" />
+        </form>
+    </div>
+</div>
+
+<div class="container-firstpart">
+    <div class="first-image">
+        <div class="button-jquery">
+            <button class="hide-button">hide()</button>
+            <button class="show-button">show()</button>
+            <button class="toggle-button">toggle()</button>
+        </div>
+        <img class="ingrid" src="./images/Ingrid-Pitt-vampira.png" alt="">
+    </div>
+
+    <div class="first-image">
+        <div class="button-jquery">
+            <button class="fade-out-button">fadeOut()</button>
+            <button class="fade-in-button">fadeIn()</button>
+            <button class="fade-toggle-button">fadeToggle()</button>
+        </div>
+        <img class="ingrid1" src="./images/Ingrid-Pitt-vampira.png" alt="">
+    </div>
+
+    <div class="first-image">
+        <div class="button-jquery">
+            <button class="up-button">slideUp()</button>
+            <button class="down-button">slideDown()</button>
+            <button class="slide-toggle-button">slideToggle()</button>
+        </div>
+        <img class="ingrid2" src="./images/Ingrid-Pitt-vampira.png" alt="">
+        </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src='./main.js'></script>
+</body>
+</html>
