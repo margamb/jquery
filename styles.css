@@ -9,3 +9,162 @@ img{
 .button-jquery{
     padding-bottom: 5%;
 }
+
+body {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #303030; 
+}
+
+h3 {
+    color: #9DDBB7;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
+}
+
+p {
+    font-size: 16px;
+    margin: 0%;
+}
+
+.explanation{
+    font-weight: 200;
+    margin: 0;
+    color: white;
+    
+}
+
+.login-form{
+    padding-bottom: 10%;
+}
+  
+h4 {
+    text-transform: uppercase; 
+}
+
+
+.product-card{
+    margin: 0%;
+    padding: 0;
+    line-height: 0;
+}
+
+
+.product-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: #D1D3D4;  
+    align-content: flex-start;
+    margin: 0%;
+    
+}
+
+.product-price{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.product-name{
+    width: 65%;
+    align-items: center;
+    margin: 0;
+}
+
+.price{
+    width: 25%;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.button{
+    width: 10%;
+    background-color: rgb(64, 65, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+    
+.more-details-button{
+    width: 40%;
+    align-items: center;
+    transition: 0.1s;
+    
+}
+
+.active{ 
+    transform: rotate(90deg);
+}
+
+.poster-details {
+    background-color: rgb(64, 65, 65);
+    padding: 5%;
+}
+ul{
+    padding: 0%;
+}
+
+
+
+.size{
+    color: white;
+}
+
+.active-size{
+    background-color: #9DDBB7;
+}
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+   
+}
+
+.disabled h3{
+    color: #535353;
+    cursor: not-allowed; 
+}
+
+li{
+    padding: 0.5em;
+    background-color: #303030;
+    width: 100%;
+    text-align: center;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+
+.buy-now-button{
+    background-color: #303030;
+    text-align: center;
+    padding: 0.75em;
+    cursor: pointer;
+        
+}
+
+.buy-now-button{
+    color: rgb(64, 65, 65);
+    cursor: pointer;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+h3, .buy-now-button{
+    cursor: pointer;
+    margin-bottom: 0%;
+    margin-top: 0%; 
+}
