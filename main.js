@@ -1,15 +1,42 @@
 $(document).ready(() => {
 
+    $('.nav-menu-top').hide();
+
+    $(".menu-button").on('click', event => {
+        $(".nav-menu-top").toggle()
+    });
+
+    /*$(".menu-button").on("click",() => { 
+        $(".menu-button").css("color", "#9DDBB7");
+    });*/
+
+    $(".menu-button").on("click",() => { 
+        $(".menu-button").toggleClass("active-menu");
+    });
+
+
+    $(".login-form").hide();
+
+    $(".login-button").on('click', event => {
+        $(".login-form").toggle()
+    });
+
+    $(".login-button").on("click",() => { 
+        $(".login-button").toggleClass("active-menu");
+    });
+
+    
+
+   
+   
+    
+
     $('.poster-details').hide();
 
     $(".more-details-button").on('click', event => {
         $(".poster-details").toggle(200)
     });
-    
-    /*$(".more-details-button").on("click", event => {
-        $(event.target).toggle(".active")
-    })*/
-
+  
     $('.more-details-button').on('click', event => {
         $(event.currentTarget).toggleClass('active');
     });
