@@ -32,6 +32,8 @@ p {
     font-weight: 200;
     margin: 0;
     color: white;
+    text-transform: inherit;
+    padding-left: 0;
     
 }
 
@@ -77,6 +79,7 @@ h4 {
     width: 65%;
     align-items: center;
     margin: 0;
+    padding-left: 2%;
 }
 
 .price{
@@ -261,18 +264,45 @@ p,
     color: #9DDBB7;
 }
 
-/*.nav-menu {
-    
+
+
+.first-image{
+    width: 100%;
     display: flex;
-    justify-content: center; }
-    .nav-menu .container {
-      padding: 1.5em;
-      display: flex; }
-      .nav-menu .container ul {
-        list-style: none; }
-        .nav-menu .container ul li {
-          padding: 0.25em 2em; }
-          .nav-menu .container ul li:first-child {
-            
-            color: #C3FF00;
-            letter-spacing: 0.05em; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-jquery{
+    width: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.up-button , .down-button, .slide-toggle-button,
+.fade-out-button, .fade-in-button, .fade-toggle-button,
+.hide-button, .show-button, .toggle-button{
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: 3px solid #9DDBB7;
+    padding: 2%;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.up-button:hover , .down-button:hover, .slide-toggle-button:hover,
+.fade-out-button:hover, .fade-in-button:hover, .fade-toggle-button:hover,
+.hide-button:hover, .show-button:hover, .toggle-button:hover{
+    background-color: #9DDBB7;
+}
+
+.up-button:focus , .down-button:focus, .slide-toggle-button:focus,
+.fade-out-button:focus, .fade-in-button:focus, .fade-toggle-button:focus,
+.hide-button:focus, .show-button:focus, .toggle-button:focus{
+    outline: none;
+}

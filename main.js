@@ -25,24 +25,16 @@ $(document).ready(() => {
         $(".login-button").toggleClass("active-menu");
     });
 
-    
-
-   
-   
-    
 
     $('.poster-details').hide();
 
     $(".more-details-button").on('click', event => {
-        $(".poster-details").toggle(200)
+        $(event.currentTarget).closest(".product-details").next().toggle(200)
+        // $(event.currentTarget).parent(".container").find(".poster-details").toggle(200)
+        /*$(".poster-details").toggle(200)*/
     });
   
-    $('.more-details-button').on('click', event => {
-        $(event.currentTarget).toggleClass('active');
-    });
-
     
-
     $('.poster-details li').on('click', event => {
         $(event.currentTarget).addClass('active-size');
         
@@ -53,6 +45,9 @@ $(document).ready(() => {
         
       });
     
+      $('.more-details-button').on('click', event => {
+        $(event.currentTarget).toggleClass('active');
+    });
     
 
     //////////////////////////////////////////////////
