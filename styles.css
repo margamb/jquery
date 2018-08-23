@@ -287,12 +287,13 @@ p,
 .hide-button, .show-button, .toggle-button{
     border-radius: 3px;
     background-color: white;
-    color: black;
+    color: #303030;
     border: 3px solid #9DDBB7;
     padding: 2%;
     font-size: 15px;
     cursor: pointer;
     margin-left: 2%;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
 }
 
 .up-button:hover , .down-button:hover, .slide-toggle-button:hover,
