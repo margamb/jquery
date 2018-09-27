@@ -2,6 +2,8 @@ img{
     width: 100%;
 }
 
+
+
 .first-image{
     padding-top: 10%;
 }
@@ -307,3 +309,29 @@ p,
 .hide-button:focus, .show-button:focus, .toggle-button:focus{
     outline: none;
 }
+
+.medida {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* @media only screen and (min-width: 600px) {
+    .medida{
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .medida{
+        max-width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .medida{
+        max-width: 30%;
+        margin: auto;
+    }
+} */
